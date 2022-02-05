@@ -1,0 +1,101 @@
+.app {
+  background: #fa4251;
+  height: 100vh;
+  padding: 30px;
+}
+.navbar
+{
+  display: block!important;
+}
+.navbar > .cont
+{
+  display: block;
+  flex-direction: row;
+  justify-content: initial!important;
+  -webkit-justify-content:initial!important;
+  margin-bottom: 50px;
+}
+.link
+{
+  text-align: left;
+  margin-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+}
+.fields
+{
+ display: flex;
+ flex-wrap: wrap;
+  width:510px;
+    margin: 0px calc((100vw - 510px) / 2);
+}
+.field
+{
+  flex: 0 0 33.333333%;
+  position: relative;
+  background-color: #202020;
+	border: 2px solid #fff;
+	font-size: 30px;
+	font-weight: 800;
+	cursor: pointer;
+	outline: none;
+  height: 170px;
+  padding: 75px;
+  border-radius: 20px;  
+  margin: 0;
+  text-align: left;
+  float: left;
+  transition: all .35s;
+}
+  
+.inner-field
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  font-size: 122px;
+  color: #fff;
+}
+.content
+{
+  margin: 20px 0px;
+}
+.active
+{
+  color: #202020;
+}
+.reset{
+  border-radius: 50%;
+  background-color:red;
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+  border: none;
+}
+.x-result,.y-result
+{
+  border-top: 2px solid #000;
+  text-align: center;
+}
+.x-result span,.y-result span
+{
+  font-size: 50px;
+    color: antiquewhite;
+}
+.x-result-header, .y-result-header
+{
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+.x-result,.x-result-header
+{
+  border-right: 1px solid #000;
+}
+.field-active
+{
+  background-color: #b095d7;
+}
